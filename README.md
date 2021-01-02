@@ -58,7 +58,7 @@ If you have any problems installing from requirements.txt you can instead instal
 sudo apt-get install -y libicu-dev
 sudo apt-get install -y python3-pip
 
-sudo pip3 install pyicu
+sudo pip3 install python3-icu
 sudo pip3 install numpy
 sudo pip3 install Flask
 sudo pip3 install polyglot
