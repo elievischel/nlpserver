@@ -469,7 +469,7 @@ def newspaper():
 # @app.route("/tester", methods=['GET', 'POST'])
 # def tester():
 # 	return render_template('form.html')
-
-app.run(host='0.0.0.0', port=6400, debug=False)
-
+if __name__ == '__main__':
+	# Threaded option to enable multiple instances for multiple user access support
+	app.run(threaded=True, port=6400, debug=False)
 
